@@ -1,0 +1,202 @@
+﻿Diagnose log at 2026-06-28T05:55:30Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.3+5fa7116896c82164996a609accd1c5ad90fe730a
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+ORIGINAL_TMP=C:/Users/Ganesh/AppData/Local/Temp
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+EXEPATH=C:\Program Files\Git\bin
+ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Ganesh\bin;C:\Users\sts-5.1.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.2.v20260203-1141\jre\bin\server;C:\Users\sts-5.1.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.2.v20260203-1141\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\Eclipse Adoptium\jdk-17\bin;C:\Program Files\nodejs;C:\Users\Ganesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Ganesh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ganesh\AppData\Roaming\npm;C:\Users\sts-5.1.1.RELEASE
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=C:/Program Files/Git/mingw64/lib
+TMP=C:\Users\Ganesh\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+INFOPATH=C:\Program Files\Git\mingw64\local\info;C:\Program Files\Git\mingw64\share\info;C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ProgramData=C:\ProgramData
+PWD=C:/Users/Ganesh/git/Spring-Rest-API-Employee/Spring-RestAPI-Employee
+CONFIG_SITE=C:/Program Files/Git/etc/config.site
+PROCESSOR_REVISION=8c01
+ECLIPSE_HOME=C:\Users\sts-5.1.1.RELEASE
+USERPROFILE=C:\Users\Ganesh
+PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+EFC_8980_1592913036=1
+TEMP=C:\Users\Ganesh\AppData\Local\Temp
+USERNAME=Ganesh
+EFC_8980_344590478=1
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+EFC_8980_4126798990=1
+PATH=C:/Program Files/Git/mingw64/libexec/git-core;C:\Users\Ganesh\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Ganesh\bin;C:\Users\sts-5.1.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.2.v20260203-1141\jre\bin\server;C:\Users\sts-5.1.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.2.v20260203-1141\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\msys64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\Eclipse Adoptium\jdk-17\bin;C:\Program Files\nodejs;C:\Users\Ganesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Ganesh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ganesh\AppData\Roaming\npm;C:\Users\sts-5.1.1.RELEASE;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+OneDrive=C:\Users\Ganesh\OneDrive
+LOCALAPPDATA=C:\Users\Ganesh\AppData\Local
+MSYSTEM_CARCH=x86_64
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+SSH_ASKPASS=C:/Program Files/Git/mingw64/bin/git-askpass.exe
+ZES_ENABLE_SYSMAN=1
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=C:/Program Files/Git/mingw64/include
+PROCESSOR_LEVEL=6
+MINGW_CHOST=x86_64-w64-mingw32
+HOSTNAME=DESKTOP-81D4M04
+HOMEPATH=\Users\Ganesh
+DISPLAY=needs-to-be-defined
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkAyDLW5HX0uDn3x5PmN8dAQAAAACAAAAAAAQZgAAAAEAACAAAAAlzE/+xXlvHDYtu1eiHHZCb/FgR3EWTZakLf5WNcRdrQAAAAAOgAAAAAIAACAAAAAG0IUVQtOzg8Fr/kybaDF2dXVjB3DAI8eezZjJv1CDnWAAAAD4q4WHbYA4AN+z9qVPuDVyAA0u2klCVf9jUdnmZ/7BNNwxMWsenrAjzjovDIV2HKm2bMlMlNCjRBUpgJOfpMNafhBEUdIJPexB5qqq3f1fsIlqnZ+b2Ne6TsdauY/zs3pAAAAA5qMCCYGLdogFtS9/53pe8+KUO182DmQG9UQ8lA2SkKZuM2SLafxUINj/N/6+qopI7gZz5bdMqdwYHMP8viKlJA==
+MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+WINDIR=C:\WINDOWS
+USERDOMAIN=DESKTOP-81D4M04
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+SYSTEMROOT=C:\WINDOWS
+_=C:/Program Files/Git/mingw64/bin/git
+TERM=xterm
+SHELL=C:\Program Files\Git\usr\bin\bash.exe
+PROGRAMFILES=C:\Program Files
+SHLVL=1
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+GIT_TRACE2_PARENT_SID=6a9fe52e-9675-41bb-9916-e9adaf31e014
+ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+MSYSTEM_PREFIX=C:/Program Files/Git/mingw64
+LANG=en_US.UTF-8
+MSYSTEM_CHOST=x86_64-w64-mingw32
+MINGW_PREFIX=C:/Program Files/Git/mingw64
+ORIGINAL_TEMP=C:/Users/Ganesh/AppData/Local/Temp
+HOME=C:\Users\Ganesh
+LOGONSERVER=\\DESKTOP-81D4M04
+JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17
+SYSTEMDRIVE=C:
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\Ganesh\AppData\Local\Temp
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+APPDATA=C:\Users\Ganesh\AppData\Roaming
+PS1=\[\033]0;$TITLEPREFIX:$PWD\007\]\n\[\033[32m\]\u@\h \[\033[35m\]$MSYSTEM \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ 
+COMPUTERNAME=DESKTOP-81D4M04
+ECLIPSE_WORKSPACE=C:\Users\Ganesh\OneDrive\Desktop\Spring Boot Projects STS
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-81D4M04
+OneDriveConsumer=C:\Users\Ganesh\OneDrive
+PUBLIC=C:\Users\Public
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\Ganesh\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\Ganesh\AppData\Local\Temp\4c6d4319aad317514ad66819'... OK
+Reading from temporary file 'C:\Users\Ganesh\AppData\Local\Temp\4c6d4319aad317514ad66819'... OK
+Deleting temporary file 'C:\Users\Ganesh\AppData\Local\Temp\4c6d4319aad317514ad66819'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\Ganesh
+UserDataDirectoryPath: C:\Users\Ganesh\.gcm
+GetCurrentDirectory(): C:\Users\Ganesh\git\Spring-Rest-API-Employee\Spring-RestAPI-Employee
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:54347/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.53.0.windows.3'
+Locating current repository...Git repository at 'C:/Users/Ganesh/git/Spring-Rest-API-Employee/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/Ganesh/.gitconfig	user.name=Ganesh
+file:C:/Users/Ganesh/.gitconfig	user.email=ganeshgarje716@gmail.com
+file:.git/config	core.symlinks=false
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/ganeshgarje716/Spring-Rest-API-Employee.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\Ganesh\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\Ganesh\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
