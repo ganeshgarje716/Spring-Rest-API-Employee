@@ -14,6 +14,7 @@ public interface EmployeeService {
 	
 	List<Employee> findAllEmployee();
 
+	String updateEmployeeById(Integer id, Employee employee);
 	
 
 }
