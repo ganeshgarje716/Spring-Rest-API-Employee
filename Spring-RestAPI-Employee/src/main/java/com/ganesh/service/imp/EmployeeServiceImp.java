@@ -1,10 +1,13 @@
 package com.ganesh.service.imp;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.ganesh.dto.EmployeeDto;
 import com.ganesh.entity.Employee;
+import com.ganesh.exception.EmployeeNotFoundException;
 import com.ganesh.repository.EmployeeRepository;
 import com.ganesh.service.EmployeeService;
 
@@ -33,6 +36,23 @@ public class EmployeeServiceImp implements EmployeeService{
 		
 		return "Employee Saved Success";
 		
+	}
+
+
+
+	@Override
+	public Employee findEmployeeById(Integer id) {
+
+		Optional<Employee> byId = employeeRepository.findById(id);
+		
+		if (byId.isPresent()) {
+			
+			Employee employee = byId.get();
+			
+			return employee;
+		}
+		
+		throw new EmployeeNotFoundException("Employee Not Found For Id = "+id);
 	}
 
 }
