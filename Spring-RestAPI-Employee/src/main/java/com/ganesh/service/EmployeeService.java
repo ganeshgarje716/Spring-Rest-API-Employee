@@ -12,5 +12,8 @@ public interface EmployeeService {
 	
 	Employee findEmployeeById(Integer id);
 	
+	List<Employee> findAllEmployee();
+
+	
 
 }

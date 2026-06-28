@@ -1,5 +1,6 @@
 package com.ganesh.service.imp;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,6 +54,16 @@ public class EmployeeServiceImp implements EmployeeService{
 		}
 		
 		throw new EmployeeNotFoundException("Employee Not Found For Id = "+id);
+	}
+
+
+
+	@Override
+	public List<Employee> findAllEmployee() {
+
+		List<Employee> all = employeeRepository.findAll();
+		
+		return all;
 	}
 
 }

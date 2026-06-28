@@ -1,5 +1,7 @@
 package com.ganesh.rest;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -45,6 +47,15 @@ public class EmployeeRestController {
 		}
 		
 		return new ResponseEntity<>(employee,HttpStatus.OK);
+	}
+	
+	
+	@GetMapping("/employees")
+	public ResponseEntity<List<Employee>> findAllEmployee() {
+		
+		List<Employee> all = employeeService.findAllEmployee();
+		
+		return new ResponseEntity<List<Employee>>(all,HttpStatus.OK);
 	}
 	
 	
