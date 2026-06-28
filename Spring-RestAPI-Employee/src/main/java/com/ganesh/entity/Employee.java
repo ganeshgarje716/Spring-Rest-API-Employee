@@ -1,6 +1,9 @@
 package com.ganesh.entity;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import org.hibernate.annotations.CreationTimestamp;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -31,6 +34,7 @@ public class Employee {
 	
 	private String mobileNo;
 	
-	private LocalDate joiningDate;
+	@CreationTimestamp
+	private LocalDateTime joiningDate;
 
 }
